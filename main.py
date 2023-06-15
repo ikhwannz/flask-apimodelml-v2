@@ -27,9 +27,9 @@ def predict():
     value4 = combined_prediction["prediction2"][1]
 
     if value3 > value4:
-        hasil2 = "fresh"
+        hasil2 = "segar"
     else:
-        hasil2 = "spoiled"
+        hasil2 = "tidak segar"
 
     hasil_akhir = "Daging ini merupakan " +"daging "+ hasil2
 
